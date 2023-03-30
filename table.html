@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Json | Table</title>
 </head>
 <body>
     <table class="border border-black mx-10 my-10">
-        <thead>
-            <tr class="border border-black">
-                <th class="border border-black">Id</th>
-                <th class="border border-black">Name</th>
-                <th class="border border-black">User Name</th>
-                <th class="border border-black">Email</th>
-                <th class="border border-black">Address</th>
+        <thead class="bg-orange-400 text-lg">
+            <tr class="border border-black text-left text-white text-sm">
+                <th class="border border-black p-2">Id</th>
+                <th class="border border-black p-2">Name</th>
+                <th class="border border-black p-2">User Name</th>
+                <th class="border border-black p-2">Email</th>
+                <th class="border border-black p-2 w-52">Address</th>
+                <th class="border border-black p-2">Phone</th>
+                <th class="border border-black p-2">Website</th>
+                <th class="border border-black p-2">Company</th>
             </tr>
         </thead>
         <tbody id="table-body">
